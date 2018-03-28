@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Intercomm</string>
+
+    <!-- Title -->
+    <string name="contact_title">Graaab Intercomm App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
