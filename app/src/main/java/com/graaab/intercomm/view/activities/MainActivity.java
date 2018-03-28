@@ -51,40 +51,12 @@ public class MainActivity extends AppCompatActivity
                 viewPager.setCurrentItem(tab.getPosition());
 
                 tab.setIcon(navIconsActive[tab.getPosition()]);
-//                tab.setIcon(R.drawable.ic_contact_active);
-
-//                // 1. get the custom View you've added
-//                View tabView = tab.getCustomView();
-//
-//                // get inflated children Views the icon and the label by their id
-//                TextView tab_label = (TextView) tabView.findViewById(R.id.nav_label);
-//                ImageView tab_icon = (ImageView) findViewById(R.id.nav_icon);
-//
-//                // change the label color, by getting the color resource value
-//                tab_label.setTextColor(getResources().getColor(R.color.colorPrimary));
-//                // change the image Resource
-//                // i defined all icons in an array ordered in order of tabs appearances
-//                // call tab.getPosition() to get active tab index.
-//                tab_icon.setImageResource(navIconsActive[tab.getPosition()]);
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
 
                 tab.setIcon(navIcons[tab.getPosition()]);
-
-//                tab.setIcon(R.drawable.ic_contact);
-
-//                View tabView = tab.getCustomView();
-//                TextView tab_label = (TextView) tabView.findViewById(R.id.nav_label);
-//                ImageView tab_icon = (ImageView) findViewById(R.id.nav_icon);
-//
-//                // back to the black color
-//                tab_label.setTextColor(getResources().getColor(R.color.grey));
-//                // and the icon resouce to the old black image
-//                // also via array that holds the icon resources in order
-//                // and get the one of this tab's position
-//                tab_icon.setImageResource(navIcons[tab.getPosition()]);
             }
 
             @Override

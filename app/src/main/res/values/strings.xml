@@ -8,6 +8,9 @@
     <string name="contact_tab">Contact</string>
     <string name="history_tab">History</string>
 
+    <!-- Tab Contact Item -->
+    <string name="tab_item_name">Wai Hong</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
