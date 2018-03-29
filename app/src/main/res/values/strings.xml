@@ -11,11 +11,14 @@
     <!-- Tab Contact Item -->
     <string name="tab_item_name">Wai Hong</string>
 
-    <!-- Menu Appbar -->>
+    <!-- Menu Appbar -->
     <string name="search_title">Search</string>
     <string name="app_label">Search</string>
     <string name="search_hint">Search</string>
     <string name="setting_tittle">Clear All History</string>
+
+    <!-- Phone call -->
+    <string name="incoming_call">Incoming call...</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

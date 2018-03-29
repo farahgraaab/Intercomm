@@ -24,14 +24,14 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:text="Wai Hong"
-            style="@style/text_2" />
+            style="@style/text_2"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
-            android:text="time"
+            android:text="@string/incoming_call"
             style="@style/text_1" />
 
     </LinearLayout>
@@ -47,31 +47,13 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_mute"
-                android:background=""/>
-            
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Mute"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginLeft="20dp">
+            android:layout_marginRight="120dp">
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_decline"
+                android:src="@drawable/ic_decline_g"
                 android:background=""/>
 
             <TextView
@@ -84,20 +66,19 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="20dp">
+            android:orientation="vertical">
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_speaker"
+                android:src="@drawable/ic_accept_g"
                 android:background=""/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Speaker"/>
+                android:text="Accept"/>
         </LinearLayout>
 
     </LinearLayout>
