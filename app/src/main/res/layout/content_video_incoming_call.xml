@@ -19,6 +19,7 @@
             android:layout_marginRight="120dp">
 
             <ImageButton
+                android:id="@+id/decline_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_decline_g"
@@ -37,6 +38,7 @@
             android:orientation="vertical">
 
             <ImageButton
+                android:id="@+id/accept_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_accept_g"
