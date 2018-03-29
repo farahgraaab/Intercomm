@@ -2,46 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <LinearLayout
-        android:layout_width="300dp"
-        android:layout_height="260dp"
-        android:layout_gravity="center"
-        android:orientation="vertical">
-
-        <ImageView
-            android:id="@+id/contact_image"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="50dp"
-            android:src="@drawable/man"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="Wai Hong"
-            style="@style/text_2" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:text="time"
-            style="@style/text_1" />
-
-    </LinearLayout>
+    android:background="@drawable/bg_on_call">
 
     <LinearLayout
         android:layout_width="330dp"
         android:layout_height="140dp"
         android:layout_gravity="center"
         android:orientation="horizontal"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="27dp"
         android:gravity="center">
 
         <LinearLayout
@@ -50,16 +19,17 @@
             android:orientation="vertical">
 
             <ImageButton
+                android:id="@+id/camera_change_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_mute"
+                android:src="@drawable/ic_front_back_camera"
                 android:background=""/>
-            
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Mute"/>
+                android:text="Back Camera"/>
         </LinearLayout>
 
         <LinearLayout
@@ -88,6 +58,7 @@
             android:layout_marginLeft="20dp">
 
             <ImageButton
+                android:id="@+id/speaker_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_speaker"

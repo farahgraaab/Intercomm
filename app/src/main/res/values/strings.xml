@@ -19,9 +19,11 @@
 
     <!-- Phone call -->
     <string name="incoming_call">Incoming call...</string>
+    <string name="call_time">time</string>
 
     <!-- Video call -->
     <string name="incoming_video_call">Incoming video call...</string>
+    <string name="video_time">time</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

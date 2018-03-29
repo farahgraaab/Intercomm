@@ -9,7 +9,7 @@
         android:layout_height="140dp"
         android:layout_gravity="center"
         android:layout_marginTop="190dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginLeft="27dp"
         android:gravity="center">
 
         <LinearLayout
