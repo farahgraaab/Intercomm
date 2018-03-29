@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include layout="@layout/content_video_call"/>
+    <include layout="@layout/content_video_incoming_call"/>
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="fill_parent"
