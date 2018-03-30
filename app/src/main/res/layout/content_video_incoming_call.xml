@@ -8,28 +8,28 @@
         android:layout_width="330dp"
         android:layout_height="140dp"
         android:layout_gravity="center"
-        android:layout_marginTop="190dp"
         android:layout_marginLeft="27dp"
+        android:layout_marginTop="190dp"
         android:gravity="center">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginRight="120dp">
+            android:layout_marginRight="120dp"
+            android:orientation="vertical">
 
             <ImageButton
                 android:id="@+id/decline_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_decline_g"
-                android:background=""/>
+                android:background="@color/transparent"
+                android:src="@drawable/ic_decline_g" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Decline"/>
+                android:text="Decline" />
         </LinearLayout>
 
         <LinearLayout
@@ -41,14 +41,14 @@
                 android:id="@+id/accept_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_accept_g"
-                android:background=""/>
+                android:background="@color/transparent"
+                android:src="@drawable/ic_accept_g" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Accept"/>
+                android:text="Accept" />
         </LinearLayout>
 
     </LinearLayout>

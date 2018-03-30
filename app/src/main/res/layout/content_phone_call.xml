@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -7,7 +8,7 @@
     <LinearLayout
         android:layout_width="300dp"
         android:layout_height="260dp"
-        android:layout_gravity="center"
+        android:layout_gravity="center_horizontal"
         android:orientation="vertical">
 
         <ImageView
@@ -16,32 +17,34 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
-            android:src="@drawable/man"/>
+            android:src="@drawable/man" />
 
         <TextView
+            style="@style/text_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:text="Wai Hong"
-            style="@style/text_2" />
+            android:text="Wai Hong" />
 
         <TextView
+            style="@style/text_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
-            android:text="time"
-            style="@style/text_1" />
+            android:text="time" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="330dp"
         android:layout_height="140dp"
-        android:layout_gravity="center"
+        android:layout_gravity="bottom"
         android:orientation="horizontal"
         android:layout_marginTop="140dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginBottom="20dp"
         android:gravity="center">
 
         <LinearLayout
@@ -53,8 +56,8 @@
                 android:id="@+id/mute_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_mute"
-                android:background=""/>
+                android:background="@color/transparent"
+                android:src="@drawable/ic_mute"/>
             
             <TextView
                 android:layout_width="wrap_content"
@@ -72,8 +75,8 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_decline"
-                android:background=""/>
+                android:background="@color/transparent"
+                android:src="@drawable/ic_decline"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -92,8 +95,8 @@
                 android:id="@+id/speaker_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_speaker"
-                android:background=""/>
+                android:background="@color/transparent"
+                android:src="@drawable/ic_speaker"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -104,4 +107,4 @@
 
     </LinearLayout>
 
-</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -18,7 +18,7 @@ public class TabContactActivity extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.activity_tab_contact, container, false);
+        View rootView = inflater.inflate(R.layout.content_contact_item, container, false);
 
         return rootView;
     }
